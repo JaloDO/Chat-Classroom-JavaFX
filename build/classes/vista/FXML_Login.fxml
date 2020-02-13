@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="547.0" prefWidth="324.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.ControladorLogin">
+   <children>
+      <TextField fx:id="txtUsuario" layoutX="96.0" layoutY="35.0" prefHeight="38.0" prefWidth="134.0" promptText="usuario" />
+      <PasswordField fx:id="txtClave" layoutX="96.0" layoutY="89.0" prefHeight="38.0" prefWidth="134.0" promptText="clave" />
+      <Button fx:id="btnAcceso" layoutX="86.0" layoutY="144.0" mnemonicParsing="false" onAction="#btnAcceso_OnClick" prefHeight="47.0" prefWidth="153.0" text="Acceso" />
+      <Button fx:id="btnSalir" layoutX="86.0" layoutY="199.0" mnemonicParsing="false" onAction="#btnSalir_OnClick" prefHeight="47.0" prefWidth="153.0" text="Salir" />
+      <Button fx:id="btnRegistrarse" layoutX="86.0" layoutY="259.0" mnemonicParsing="false" onAction="#btnRegistrarse_OnClick" prefHeight="47.0" prefWidth="153.0" text="Registrarse" />
+      <RadioButton fx:id="rb1" layoutX="121.0" layoutY="348.0" mnemonicParsing="false" selected="true" text="Servidor 1">
+         <toggleGroup>
+            <ToggleGroup fx:id="radio" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="rb2" layoutX="121.0" layoutY="378.0" mnemonicParsing="false" text="Servidor 2" toggleGroup="$radio" />
+      <RadioButton fx:id="rb3" layoutX="121.0" layoutY="410.0" mnemonicParsing="false" text="Servidor 3" toggleGroup="$radio" />
+   </children>
+</AnchorPane>

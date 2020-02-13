@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Javafx_Chat_AlejandroDiaz.jnlp">
+  <information>
+    <title>Javafx_Chat_AlejandroDiaz</title>
+    <vendor>David</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Javafx_Chat_AlejandroDiaz.jar" size="14402" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.18-bin.jar" size="775587" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Javafx_Chat_AlejandroDiaz" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="javafx_chat_alejandrodiaz.Javafx_Chat_AlejandroDiaz"  name="Javafx_Chat_AlejandroDiaz" />
+  <update check="always"/>
+</jnlp>
